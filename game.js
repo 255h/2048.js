@@ -1,5 +1,5 @@
 
 function test()
 {
-    alert("boom!");
+    Console.log("test");
 }

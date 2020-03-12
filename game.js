@@ -1,0 +1,5 @@
+
+function test()
+{
+    alert("boom!");
+}

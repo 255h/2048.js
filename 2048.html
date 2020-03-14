@@ -2,11 +2,12 @@
     <style>
     
         td {height: 50px; background-color: #968c81;width: 50px; text-align: center; font-size: 40; border-radius: 5px; font-family: Verdana; color: #847a6f;} 
-        .center{top: 50%;  left: 50%;position:absolute; margin-left:-200px;margin-top:-200px; width: 400px;height: 400px; background-color:#83796f; padding: 5px; border-radius: 5px;}
+        .center{table-layout:fixed;top: 50%;  left: 50%;position:absolute; margin-left:-200px;margin-top:-200px; width: 400px;height: 400px; background-color:#83796f; padding: 5px; border-radius: 5px;}
     </style>
 
+    <script src="game.js"></script>
     <body>
-    <table class="center" cellspacing="5"> 
+    <table id="game" class="center" cellspacing="5"> 
         <tr> <td id="1" ></td> <td id="2" ></td> <td id="3" ></td> <td id="4" ></td></tr>
         <tr> <td id="5" ></td> <td id="6" ></td> <td id="7" ></td> <td id="8" ></td></tr>
         <tr> <td id="9" ></td> <td id="10"></td> <td id="11"></td> <td id="12"></td></tr>
